@@ -1,0 +1,8 @@
+# .env
+# .htpasswd
+
+node modules/
+*.log
+*.tmp
+.DS Store
+Thumbs.db
