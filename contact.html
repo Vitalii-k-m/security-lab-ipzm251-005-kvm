@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="uk">
+<head><meta charset="UTF-8"><title>Контакти — Арабіка</title>
+<link rel="stylesheet" href="/assets/css/style.css"></head>
+<body>
+ <header><h1>&#9749; Кав'ярня "Арабіка"</h1>
+ <nav><a href="/">Головна</a><a href="/menu.html">Меню</a>
+ <a href="/about.html">Про нас</a><a
+href="/contact.html">Контакти</a></nav></header>
+ <main>
+ <h2>Зв'яжіться з нами</h2>
+ <p>вул. Кавова, 1, Київ | +38 044 000 00 00</p>
+ <section class="contact-form">
+ <h3>Напишіть нам</h3>
+ <!-- Форма без бекенду — для тестування POST/XSS через
+ModSecurity -->
+ <form method="POST" action="/contact.html">
+ <label>Ваше ім'я:
+ <input type="text" name="name" required></label>
+ <label>Email:
+ <input type="email" name="email" required></label>
+ <label>Повідомлення:
+ <textarea name="message" rows="5"></textarea></label>
+ <button type="submit">Надіслати</button>
+ </form>
+ </section>
+ </main>
+ <footer><p>&copy; 2025 Кав'ярня "Арабіка"</p></footer>
+</body></html>
